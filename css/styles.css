@@ -6,14 +6,13 @@ body{
 }
 
 .Welcome_Message{
+    position: absolute !important;
     display: flex;
     width: 300px;
     height:  40px;
     color: #fff;
     font-size: 40px;
     line-height: 40px;
-
-    position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
@@ -48,73 +47,10 @@ ul, p{
 
     100%{margin-top: 0;}
 }
-.typing {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: -150px;
-    left: 0;
-    margin: auto;
-    margin: auto;
-    display: table;
-}
-h1{
-    margin: 0;
-    float: left;
-    color: #fff;
-    position: relative;
-    font-size: 25px;
-}
-
-h1 span {
-    position: absolute;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 0;
-    background: rgb(29, 28, 28); ;
-    border-left: 2px solid snow;
-
-    animation: writing 10s steps(70);
-}
-
-@keyframes writing{
-    from{ width: 100%;}
-    to{width: 0;}
-}
-
-.later {
-    margin: 0;
-    float: left;
-    color: #fff;
-    position: relative;
-    font-size: 20px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: -250px;
-    left: 0;
-    margin: auto;
-    margin: auto;
-    display: table;
-
-}
-P span {
-    position: absolute;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 0;
-    background: rgb(29, 28, 28); ;
-    border-left: 2px solid snow;
-    animation-delay: 7s;
-    animation: writing 10s infinite steps(18);
-    overflow: hidden;
-}
 
 .bongo {
     position: absolute;
-    top: -500px;
+    top: -250px;
     right: 0;
     bottom: 0;
     left: 0;
